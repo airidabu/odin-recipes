@@ -1,1 +1,2 @@
 # odin-recipes
+In this project, I’m diving back into HTML to whip up a delicious-looking recipe webpage! 🍝 Along the way, I’ll be getting cozy with Git commands in the terminal — because what’s better than mixing a bit of code with a sprinkle of version control magic?
