@@ -13,21 +13,29 @@
     --border-light: #4a3830;
 }
 
+html {
+    font-size: 20px;
+}
+
 body {
     align-items: center;
     font-family: "Figtree", sans-serif;
     background-color: var(--bg-main);
     color: var(--text-main);
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
 }
 
 h1 {
     text-transform: uppercase;
     text-align: center;
+    font-size: 3rem;
 }
 
 ul {
     list-style-type: none;
-    padding: 22px 0;
+    padding: 22px;
     background-color: var(--bg-section);
 }
 

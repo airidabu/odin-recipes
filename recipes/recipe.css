@@ -13,15 +13,23 @@
     --border-light: #4a3830;
 }
 
+html {
+    font-size: 20px;
+}
+
 body {
     font-family: "Figtree", sans-serif;
     background-color: var(--bg-main);
     color: var(--text-main);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
 }
 
 h1 {
     text-transform: uppercase;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
 }
 
 a {
@@ -31,4 +39,8 @@ a {
 
 a:hover {
     color: var(--accent-hover);
+}
+
+img {
+    width: 400px;
 }
